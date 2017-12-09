@@ -4,6 +4,12 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
+/**
+ * Redis 连接类
+ *
+ * @author 杨高超
+ * @since 2017-12-09
+ */
 public class RedisConnection {
     /**
      * redis 连接池配置信息
