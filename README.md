@@ -18,7 +18,7 @@
     git checkout dev
     mvn install
 
-### maven依赖配置
+### maven 依赖配置
 
     <dependency>
         <groupId>com.x9710.irestaurant.common</groupId>
