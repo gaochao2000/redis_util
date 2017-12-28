@@ -20,7 +20,6 @@ public class CacheServiceRedisImpl implements CacheService {
 
     private Integer dbIndex;
 
-
     public void setRedisConnection(RedisConnection redisConnection) {
         this.redisConnection = redisConnection;
     }
@@ -51,9 +50,7 @@ public class CacheServiceRedisImpl implements CacheService {
                 jedis.close();
             }
         }
-
     }
-
 
     public Object pullObject(String key) {
 

@@ -16,7 +16,7 @@ public class SerializeUtil {
     /**
      * 将一个对象序列化为二进制数组
      *
-     * @param object 要序列化的对象，该必须实现java.io.Serializable接口
+     * @param object 要序列化的对象，该必须实现 java.io.Serializable 接口
      * @return 被序列化后的二进制数组
      */
     public static byte[] serialize(Object object) {
