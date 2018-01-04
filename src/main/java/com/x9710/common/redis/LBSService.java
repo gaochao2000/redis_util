@@ -5,6 +5,12 @@ import com.x9710.common.redis.domain.Postion;
 
 import java.util.List;
 
+/**
+ * 位置服务接口
+ *
+ * @author 杨高超
+ * @since 2017-12-26
+ */
 public interface LBSService {
 
     /**

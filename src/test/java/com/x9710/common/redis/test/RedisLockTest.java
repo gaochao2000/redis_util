@@ -20,7 +20,7 @@ public class RedisLockTest {
                         if (value != null) {
                             System.out.println(Thread.currentThread().getName() + " lock key = " + key + " success! ");
                             Thread.sleep(2 * 1000);
-                        }else{
+                        } else {
                             System.out.println(Thread.currentThread().getName() + " lock key = " + key + " failure! ");
                         }
                     } catch (Exception e) {

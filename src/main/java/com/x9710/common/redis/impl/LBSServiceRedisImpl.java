@@ -12,6 +12,12 @@ import redis.clients.jedis.params.geo.GeoRadiusParam;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 位置服务实现类
+ *
+ * @author 杨高超
+ * @since 2017-12-26
+ */
 public class LBSServiceRedisImpl implements LBSService {
     private RedisConnection redisConnection;
 

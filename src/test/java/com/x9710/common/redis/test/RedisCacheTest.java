@@ -48,7 +48,7 @@ public class RedisCacheTest {
         oriStudent.setName("柳白猿");
         oriStudent.setAge(36);
         cacheService.putObject(oriStudent.getId(), oriStudent);
-        Student cacheStudent = (Student)cacheService.pullObject(oriStudent.getId());
+        Student cacheStudent = (Student) cacheService.pullObject(oriStudent.getId());
         Assert.assertTrue(oriStudent.equals(cacheStudent));
         Assert.assertTrue(cacheService.delObject(oriStudent.getId()));
         Assert.assertTrue(cacheService.pullObject(oriStudent.getId()) == null);

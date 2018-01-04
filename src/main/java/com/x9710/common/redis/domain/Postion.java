@@ -1,5 +1,11 @@
 package com.x9710.common.redis.domain;
 
+/**
+ * 一个位置对象
+ *
+ * @author 杨高超
+ * @since 2017-12-26
+ */
 public class Postion {
     /**
      * 位置的标识

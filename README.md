@@ -12,17 +12,16 @@
 
 2. 执行命令
     
-    
-    git clone git@bitbucket.org:x9710/irestaurant_common_cacheclient.git
-    git branch dev origin/dev
-    git checkout dev
-    mvn install
+        git clone git@github.com:gaochao2000/redis_util.git
+        git branch dev origin/dev
+        git checkout dev
+        mvn install
 
 ### maven 依赖配置
 
-    <dependency>
-        <groupId>com.x9710.irestaurant.common</groupId>
-        <artifactId>irestaurant-common-cachelient</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
+        <dependency>
+            <groupId>com.x9710.common</groupId>
+            <artifactId>redis-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
